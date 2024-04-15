@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {useSelector} from 'react-redux'
 import {useNavigate} from 'react-router-dom'
 
-// eslint-disable-next-line react/prop-types
+
 export default function Protected({children, authentication = true}) {
 
     const navigate = useNavigate()
